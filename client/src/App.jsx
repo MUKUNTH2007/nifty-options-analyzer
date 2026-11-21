@@ -31,7 +31,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API = "http://localhost:5001/api/market";
+const API = "https://optionlens-backend.onrender.com/api/market";
 
 function App() {
   const [market, setMarket] = useState(null);
